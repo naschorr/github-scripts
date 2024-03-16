@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DownloadCounter - DRGSS",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "python": "${workspaceFolder}\\Scripts\\python.exe",
+            "program": "${workspaceFolder}\\code\\download_counter.py",
+            "cwd": "${workspaceFolder}\\code",
+            "justMyCode": false,
+            "debugOptions": [
+                "RedirectOutput"
+            ],
+            "args": [
+                "naschorr",
+                "deep-rock-galactic-save-syncer"
+            ]
+        },
+    ]
+}
